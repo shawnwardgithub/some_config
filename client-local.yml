@@ -1,7 +1,7 @@
 #数据库配置
 jdbc:
   driver: com.mysql.jdbc.Driver
-  url: jdbc:mysql://127.0.0.1:3306/true?useUnicode=false&characterEncoding=utf-8&allowMultiQueries=true;useAffectedRows=true
+  url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true;useAffectedRows=true
   username: root
   password: root
 spring:
