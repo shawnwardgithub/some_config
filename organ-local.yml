@@ -1,16 +1,16 @@
 #数据库配置
-jdbc:
-  driver: com.mysql.jdbc.Driver
-  url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useAffectedRows=true
-  username: root
-  password: root
 #jdbc:
 #  driver: com.mysql.jdbc.Driver
-#  url: jdbc:mysql://114.55.183.34:3306/xuexindb_dev?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-#  #  username: xx_localdev
-#  #  password: djdkre3jr[1320j
-#  username: organuser
-#  password: 0RgAu]28sdj
+#  url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useAffectedRows=true
+#  username: root
+#  password: root
+jdbc:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://114.55.183.34:3306/xuexindb_dev?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+  #  username: xx_localdev
+  #  password: djdkre3jr[1320j
+  username: organuser
+  password: 0RgAu]28sdj
 spring:
   rabbitmq:
     host: 120.26.231.118
