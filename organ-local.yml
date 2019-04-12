@@ -1,4 +1,4 @@
-数据库配置
+#数据库配置
 jdbc:
   driver: com.mysql.jdbc.Driver
   url: jdbc:mysql://114.55.183.34:3306/xuexindb_dev?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
