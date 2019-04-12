@@ -6,7 +6,6 @@ jdbc:
   #  password: djdkre3jr[1320j
   username: organuser
   password: 0RgAu]28sdj
-
 spring:
   rabbitmq:
     host: 120.26.231.118
