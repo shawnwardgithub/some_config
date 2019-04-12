@@ -14,8 +14,10 @@ jdbc:
     #  password: djdkre3jr[1320j
   username: organuser
   password: 0RgAu]28sdj
-rabbitmq:
-  host: 120.26.231.118
-  port: 5672
-  username: guest
-  password: xuexin_guest_2017
+
+spring:
+  rabbitmq:
+    host: 120.26.231.118
+    port: 5672
+    username: guest
+    password: xuexin_guest_2017
