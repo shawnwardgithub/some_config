@@ -1,22 +1,21 @@
 
+#jdbc:
+#  driver: com.mysql.jdbc.Driver
+#  url: jdbc:mysql://114.55.183.34:3306/xuexindb_dev?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+#  #  username: xx_localdev
+#  #  password: djdkre3jr[1320j
+#  username: organuser
+#  password: 0RgAu]28sdj
+
 jdbc:
   driver: com.mysql.jdbc.Driver
   url: jdbc:mysql://114.55.183.34:3306/xuexindb_dev?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-  #  username: xx_localdev
-  #  password: djdkre3jr[1320j
+    #  username: xx_localdev
+    #  password: djdkre3jr[1320j
   username: organuser
   password: 0RgAu]28sdj
-#spring:
-#  datasource:
-#    type: com.alibaba.druid.pool.DruidDataSource
-#    driver: com.mysql.jdbc.Driver
-#    url: jdbc:mysql://114.55.183.34:3306/xuexindb_dev?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-#      #  username: xx_localdev
-#      #  password: djdkre3jr[1320j
-#    username: organuser
-#    password: 0RgAu]28sdj
-  rabbitmq:
-    host: 120.26.231.118
-    port: 5672
-    username: guest
-    password: xuexin_guest_2017
+rabbitmq:
+  host: 120.26.231.118
+  port: 5672
+  username: guest
+  password: xuexin_guest_2017
